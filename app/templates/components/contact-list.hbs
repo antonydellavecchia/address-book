@@ -1,0 +1,28 @@
+<tr>
+	<th>My Contacts</th>
+	<th></th>
+	<th></th>
+	<th></th>
+</tr>
+
+
+<tr>
+	<th> Full Name</th>
+	<th> Phone No. </th>
+	<th> Mobile No.</th>
+  <th> Actions </th>
+</tr>
+ 
+
+{{#each contact as |contact|}}
+	<tr>
+		<td>{{contact.firstName}} {{contact.surname}}</td>
+		<td>{{contact.phoneNumber}}</td>
+		<td>{{contact.mobileNumber}}</td>
+		<td><button  {{action "deleteContact" contact}} > Delete Contact</button></td>
+	</tr>
+{{/each}}
+	
+
+
+{{yield}}
