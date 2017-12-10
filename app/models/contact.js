@@ -6,5 +6,4 @@ export default DS.Model.extend({
 	surname: DS.attr(),
 	phoneNumber: DS.attr(),
 	mobileNumber: DS.attr() 
-  
 });

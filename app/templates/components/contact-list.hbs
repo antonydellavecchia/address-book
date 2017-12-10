@@ -1,10 +1,7 @@
+{{!--Comntact Table --}}
 <tr>
-	<th>My Contacts</th>
-	<th></th>
-	<th></th>
-	<th></th>
+	<th colspan="4">My Contacts</th>
 </tr>
-
 
 <tr>
 	<th> Full Name</th>
@@ -12,7 +9,6 @@
 	<th> Mobile No.</th>
   <th> Actions </th>
 </tr>
- 
 
 {{#each contact as |contact|}}
 	<tr>
@@ -22,7 +18,4 @@
 		<td><button  {{action "deleteContact" contact}} > Delete Contact</button></td>
 	</tr>
 {{/each}}
-	
 
-
-{{yield}}

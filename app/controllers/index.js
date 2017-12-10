@@ -20,12 +20,8 @@ export default Ember.Controller.extend({
 				phoneNumber: phoneNumber,
 				mobileNumber: mobileNumber
 			});
-				
-			
+						
 			contact.save();
-										
 		}
-				
 	}
-
 });

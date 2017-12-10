@@ -3,11 +3,9 @@
 		width: 100%;
 }
 
-
 .table td{
 	border: 1px solid #ddd;
 	padding: 8px;
-		
 }
 
 .table tr:nth-child(even){
@@ -15,6 +13,7 @@
 }
 
 .table th {
+	padding : 12px;
 	padding-top: 12px;
 	padding-bottom:12px;
 	text-align: left;
